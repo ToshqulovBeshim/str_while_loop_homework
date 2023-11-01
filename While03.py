@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    d=0
+    while a<len(s):
+        if not s[a].isalpha() and not s[a].isdigit() and s[a]!=' ':
+            d+=1
+        a+=1
+    return d
+s="@#$$$$$56tynhvjrm454ghbvn"
+print(main(s))

@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    d=0
+    while a<len(s):
+        if s[a].isalpha():
+            d+=1
+        a+=1
+    return d
+s="yy857 ghjk 84"
+print(main(s))

@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    d=0
+    while a<len(s):
+        if s[a].islower() and not s[a]==[ a] and not s[a]==[o] and not s[a]==[e] and not s[a]==[ i] and not s[a]==[u]:
+            d+=1
+        a+=1
+    return d
+s="i67RFBohnv"
+print(main(s))

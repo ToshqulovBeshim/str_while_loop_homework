@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    d=0
+    while a<len(s):
+        if s[a].isupper():
+            d+=1
+        a+=1
+    return d
+s="uhvingjfHYUHJuhij"
+print(main(s))

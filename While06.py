@@ -7,3 +7,12 @@ def main(s):
     Returns:
         int: return answer
     """
+    f=0
+    d=0
+    while f<len(s):
+        if s[f].isalpha() and not s[f]=="a" and not s[f]=="o" and not s[f]=="i" and not s[f]=="u" and not s[f]=="e":
+            d+=1
+        f+=1
+    return d
+s="i67RFBohnv"
+print(main(s))
